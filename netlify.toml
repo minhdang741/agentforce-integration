@@ -2,4 +2,3 @@
   for = "/*" # you can configure the correct paths here
   [headers.values]
     Access-Control-Allow-Origin = "*" # see a list of allowed values here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
-    Access-Control-Allow-Origin = "https://orgfarm-9f46822ad7-dev-ed.develop.my.salesforce-scrt.com"
