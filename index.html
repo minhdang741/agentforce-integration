@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+
+    </head>
+
+    <body>
+
+        <h1>My awesome space</h1>
+        <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DQy00000KZluz',
+				'ESA_Web_Deployment',
+				'https://orgfarm-9f46822ad7-dev-ed.develop.my.site.com/ESWESAWebDeployment1724800920657',
+				{
+					scrt2URL: 'https://orgfarm-9f46822ad7-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-9f46822ad7-dev-ed.develop.my.site.com/ESWESAWebDeployment1724800920657/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+        <!-- Load external JavaScript -->
+        
+    </body>
+
+</html>
